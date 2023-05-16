@@ -1,0 +1,13 @@
+.main {
+  background-color: #000000;
+  margin: auto;
+  padding: 0 150px 0 200px;
+  font-family: 'Inter', sans-serif;
+  max-width: 1280px;
+}
+
+@media screen and (max-width: 950px) {
+  .main {
+    padding: 0 19px 0 19px;
+  }
+}
