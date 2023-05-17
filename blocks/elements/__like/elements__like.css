@@ -2,3 +2,8 @@
   max-height: 19px;
   margin: 20px;
 }
+
+.elements__like:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

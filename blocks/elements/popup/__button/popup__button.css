@@ -8,3 +8,8 @@
   line-height: 22px;
   margin: 31px 0 0 0;
 }
+
+.popup__button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
