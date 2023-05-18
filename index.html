@@ -2,22 +2,23 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Mesto</title>
+  <title>Место</title>
   <link rel="stylesheet" href="pages/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body class="main">
 <header class="header">
   <img class="header__logo" src="images/logo.svg" alt="Место - Россия">
 </header>
+<body class="main">
 <section class="profile">
   <img class="profile__image" src="images/image.jpg" alt="Жак=Ив Кусто">
   <div class="profile__info">
     <h1 id="name" class="profile__name">Жак-Ив Кусто</h1>
     <h2 id="status" class="profile__status">Исследователь океана</h2>
   </div>
-  <img id="profile_edit" class="profile__redaction" src="images/edit-button.png" alt="Кнопка 'Редактировать'">
+  <button type="button" id="profile_edit" class="profile__redaction"></button>
   <div class="add-button">
-    <img class="profile__button" src="images/edit-add-button.png" alt="Кнопка 'Добавить'">
+    <button type="button" class="profile__button" src="images/edit-add-button.png" alt="Кнопка 'Добавить'"></button>
   </div>
 </section>
 <section class="elements">
@@ -72,13 +73,13 @@
 </section>
 <div id="popup" class="popup">
   <div class="popup__window">
-    <img id="popup_close" class="popup__close" src="images/close-Icon.svg" alt="Закрыть">
+    <button type="button" id="popup_close" class="popup__close" src="images/close-Icon.svg" alt="Закрыть"></button>
     <h2 class="popup__title">Редактировать профиль</h2>
     <input id="name_input" class="popup__input">
     <input id="status_input" class="popup__input">
-    <div id="popup_button" class="popup__button">
+    <button type="submit" id="popup_button" class="popup__button">
       Сохранить
-    </div>
+    </button>
   </div>
 </div>
 <footer class="footer">

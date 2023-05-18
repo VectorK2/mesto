@@ -1,9 +1,9 @@
 .elements__like {
   max-height: 19px;
-  margin: 20px;
+  margin: 30px 20px 0 0;
 }
 
 .elements__like:hover {
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.5;
 }

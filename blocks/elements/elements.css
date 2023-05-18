@@ -1,7 +1,8 @@
 .elements {
   display: grid;
   margin: 48px 0 0 0;
-  grid-row-gap: 17px;
+  grid-row-gap: 22px;
+  grid-column-gap: 17px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }

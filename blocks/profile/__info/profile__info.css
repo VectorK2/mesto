@@ -1,13 +1,13 @@
 .profile__info {
   display: flex;
   flex-direction: column;
-  margin: 16px 0 0 30px;
+  margin: 20px 0 0 30px;
   white-space: nowrap;
   font-style: normal;
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 950px) {

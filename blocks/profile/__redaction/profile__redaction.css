@@ -1,0 +1,31 @@
+.profile__redaction {
+  max-height: 28px;
+  max-width: 24px;
+  margin: 38px 0 0 23px;
+  background: url("../../../images/edit-button.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 22px;
+  border: none;
+
+}
+
+.profile__redaction:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1245px) {
+  .profile__redaction {
+    margin: 35px 0 0 10px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .profile__redaction {
+    margin: -50px 0 0 245px;
+    max-width: 18px;
+    padding: 17px 0 1px;
+  }
+}
