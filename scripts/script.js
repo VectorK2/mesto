@@ -31,7 +31,3 @@ function clickPopupButton() {
     status.textContent = inputStatus.value;
     popupClick();
 }
-
-popupButton.addEventListener('click', clickPopupButton);
-
-likeChange1.addEventListener('click', likeBlackChange1);
