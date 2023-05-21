@@ -5,6 +5,7 @@ const name = document.querySelector('#name');
 const status = document.querySelector('#status');
 const inputName = document.querySelector('#name_input');
 const inputStatus = document.querySelector('#status_input');
+const form = document.querySelector('form[name="profileChange"]');
 
 
 function clickProfileEdit() {
@@ -25,9 +26,12 @@ function popupClick() {
 cross.addEventListener('click', popupClick);
 
 
-function clickPopupButton() {
-
+function clickPopupButton(event) {
+    event.preventDefault();
     name.textContent = inputName.value;
     status.textContent = inputStatus.value;
     popupClick();
+    console.log(event);
 }
+
+form.addEventListener('submit', clickPopupButton);
