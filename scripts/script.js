@@ -5,7 +5,7 @@ const name = document.querySelector('#name');
 const status = document.querySelector('#status');
 const inputName = document.querySelector('#name_input');
 const inputStatus = document.querySelector('#status_input');
-const form = document.querySelector('.profile__form');
+const form = document.querySelector('.popup__form');
 
 
 function clickProfileEdit() {
