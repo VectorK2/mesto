@@ -1,4 +1,4 @@
-.main {
+.body {
   background-color: #000000;
   padding: 0 150px 0 200px;
   font-family: 'Inter', 'Arial', sans-serif;
@@ -9,7 +9,8 @@
 }
 
 @media screen and (max-width: 950px) {
-  .main {
+  .body {
     padding: 0 19px 0 19px;
+    max-width: 320px;
   }
 }

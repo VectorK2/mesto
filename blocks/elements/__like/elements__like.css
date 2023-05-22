@@ -1,6 +1,12 @@
 .elements__like {
-  max-height: 19px;
   margin: 30px 20px 0 0;
+  background: url("../../../images/elements-like.png");
+  background-size: 21px, 19px;
+  background-repeat: no-repeat;
+  border: none;
+  max-width: 21px;
+  max-height: 19px;
+  width: 100%;
 }
 
 .elements__like:hover {

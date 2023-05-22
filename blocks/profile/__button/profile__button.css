@@ -1,23 +1,24 @@
 .profile__button {
-  margin: 38px 0 0 240px;
+  margin: 38px 0 0 236px;
   max-width: 150px;
   max-height: 50px;
-  background: url("../../../images/edit-add-button.png");
+  background: url("../../../images/vector.png");
   width: 100%;
-  background-size: cover;
+  background-size: 22px 22px;
   background-repeat: no-repeat;
   padding-top: 48px;
-  border: none;
+  border: 2px solid #FFFFFF;
+  background-position: 62px, 4px;
 }
 
 .profile__button:hover {
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 1245px) {
   .profile__button {
-    margin: 70px 0 0 -100px;
+    margin: 75px 0 0 -102px;
     padding-right: 140px;
   }
 }
@@ -25,8 +26,11 @@
 @media screen and (max-width: 950px) {
   .profile__button {
     margin: 65px 0 0 0;
-    background-size: 266px 50px;
-    padding: 50px 265px 0 0;
+    background-size: 16px, 16px;
+    padding: 47px 278px 0 0;
+    background-position: 133px, 15px;
+    border: 2px solid #FFFFFF;
+
   }
 }
 

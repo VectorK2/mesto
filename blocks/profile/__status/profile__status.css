@@ -5,11 +5,22 @@
   font-size: 18px;
   line-height: 22px;
   margin: 10px 0 0;
+  max-width: 294px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1245px) {
+  .profile__status {
+    max-width: 250px;
+  }
 }
 
 @media screen and (max-width: 950px) {
   .profile__status {
     font-size: 14px;
     line-height: 16px;
+    max-width: 211px;
   }
 }

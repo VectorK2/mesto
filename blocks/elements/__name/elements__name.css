@@ -10,3 +10,9 @@
   text-overflow: ellipsis;
 
 }
+
+@media screen and (max-width: 950px) {
+  .elements__name {
+    padding: 21px 0 25px 0;
+  }
+}

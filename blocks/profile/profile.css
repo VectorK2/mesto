@@ -3,15 +3,11 @@
   display: flex;
   max-width: 880px;
   width: auto;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 1245px) {
   .profile {
     max-width: 560px;
-    width: auto;
   }
 }
 
