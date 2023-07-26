@@ -21,48 +21,6 @@
     <button type="button" class="profile__button"></button>
   </section>
   <section class="elements">
-    <div class="elements__block">
-      <img class="elements__photo" src="images/karashevsk.jpg" alt="Карачаевск">
-      <div class="elements__title">
-        <h2 class="elements__name">Карачаевск</h2>
-        <button type="button" class="elements__like"></button>
-      </div>
-    </div>
-    <div class="elements__block">
-      <img class="elements__photo" src="images/elbrus.jpg" alt="Гора Эльбрус">
-      <div class="elements__title">
-        <h2 class="elements__name">Гора Эльбрус</h2>
-        <button type="button" class="elements__like"></button>
-      </div>
-    </div>
-    <div class="elements__block">
-      <img class="elements__photo" src="images/dombai.jpg" alt="Добмай">
-      <div class="elements__title">
-        <h2 class="elements__name">Домбай</h2>
-        <button type="button" class="elements__like"></button>
-      </div>
-    </div>
-    <div class="elements__block">
-      <img class="elements__photo" src="images/elbrus.jpg" alt="Гора Эльбрус">
-      <div class="elements__title">
-        <h2 class="elements__name">Гора Эльбрус</h2>
-        <button type="button" class="elements__like"></button>
-      </div>
-    </div>
-    <div class="elements__block">
-      <img class="elements__photo" src="images/dombai.jpg" alt="Добмай">
-      <div class="elements__title">
-        <h2 class="elements__name">Домбай</h2>
-        <button type="button" class="elements__like"></button>
-      </div>
-    </div>
-    <div class="elements__block">
-      <img class="elements__photo" src="images/karashevsk.jpg" alt="Карачаевск">
-      <div class="elements__title">
-        <h2 class="elements__name">Карачаево-Черкессия</h2>
-        <button type="button" class="elements__like"></button>
-      </div>
-    </div>
   </section>
 </main>
 <footer class="footer">
@@ -76,6 +34,19 @@
       <input id="name_input" class="popup__input" name="name" placeholder="Имя">
       <input id="status_input" class="popup__input" name="status" placeholder="О себе">
       <button type="submit" id="popup_button" class="popup__button">
+        Сохранить
+      </button>
+    </form>
+  </div>
+</div>
+<div id="add_popup" class="popup">
+  <div class="popup__window">
+    <button type="button" id="add_close" class="popup__close"></button>
+    <h2 class="popup__title">Новое место</h2>
+    <form name="addLink" method="post" class="popup__form">
+      <input id="add_name_input" class="popup__input" name="add" placeholder="Название">
+      <input id="add_link_input" class="popup__input" name="link" placeholder="Ссылка на картинку">
+      <button type="submit" id="add_button" class="popup__button">
         Сохранить
       </button>
     </form>

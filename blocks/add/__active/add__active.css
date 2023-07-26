@@ -1,4 +1,4 @@
-.popup_active {
+.add_active {
   display: flex;
   visibility: visible;
   animation: fadeIn 0.3s linear forwards;

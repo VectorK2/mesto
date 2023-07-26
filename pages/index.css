@@ -20,6 +20,8 @@
 @import "../blocks/elements/__name/elements__name.css";
 @import "../blocks/elements/__title/elements__title.css";
 @import "../blocks/elements/__like/elements__like.css";
+@import "../blocks/elements/__photo-container/elements__photo-container.css";
+@import "../blocks/elements/__delete/element__delete.css";
 
 @import "../blocks/popup/popup.css";
 @import "../blocks/popup/_active/popup_active.css";
@@ -28,5 +30,14 @@
 @import "../blocks/popup/__input/popup__input.css";
 @import "../blocks/popup/__button/popup__button.css";
 @import "../blocks/popup/__close/popup__close.css";
+@import "../blocks/popup/__container/popup__container.css";
+@import "../blocks/popup/__image/popup__image.css";
+@import "../blocks/popup/__name/popup__name.css";
 
 @import "../blocks/footer/__copyright/footer__copyright.css";
+
+@import "../blocks/add/add.css";
+@import "../blocks/add/__window/add__window.css";
+@import "../blocks/add/__close/add__close.css";
+@import "../blocks/add/__button/add__button.css";
+@import "../blocks/add/__active/add__active.css";
