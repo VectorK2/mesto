@@ -7,8 +7,5 @@
   background-image: url("../../../images/delete.svg");
   background-color: transparent;
   border: 0;
-}
-
-.elements__delete {
   cursor: pointer;
 }
