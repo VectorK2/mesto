@@ -17,10 +17,22 @@
       <h1 id="name" class="profile__name">Жак-Ив Кусто</h1>
       <h2 id="status" class="profile__status">Исследователь океана</h2>
     </div>
-    <button type="button" id="profile_edit" class="profile__redaction"></button>
-    <button type="button" class="profile__button"></button>
+    <button aria-label type="button" id="profile_edit" class="profile__redaction"></button>
+    <button aria-label type="button" class="profile__button"></button>
   </section>
   <section class="elements">
+    <template id="elements-box">
+      <div class="elements__block">
+        <button type="submit" class="elements__delete"></button>
+        <div class="elements__photo-container">
+          <img class="elements__photo">
+        </div>
+        <div class="elements__title">
+          <h2 class="elements__name"></h2>
+          <button type="submit" class="elements__like"></button>
+        </div>
+      </div>
+    </template>
   </section>
 </main>
 <footer class="footer">
@@ -28,12 +40,12 @@
 </footer>
 <div id="popup" class="popup">
   <div class="popup__window">
-    <button type="button" id="popup_close" class="popup__close"></button>
+    <button aria-label type="button" id="popup_close" class="popup__close"></button>
     <h2 class="popup__title">Редактировать профиль</h2>
     <form name="profileChange" method="post" class="popup__form">
-      <input id="name_input" class="popup__input" name="name" placeholder="Имя">
-      <input id="status_input" class="popup__input" name="status" placeholder="О себе">
-      <button type="submit" id="popup_button" class="popup__button">
+      <input id="name_input" class="popup__input" name="name" placeholder="Имя" required>
+      <input id="status_input" class="popup__input" name="status" placeholder="О себе" required>
+      <button aria-label type="submit" id="popup_button" class="popup__button">
         Сохранить
       </button>
     </form>
@@ -41,15 +53,22 @@
 </div>
 <div id="add_popup" class="popup">
   <div class="popup__window">
-    <button type="button" id="add_close" class="popup__close"></button>
+    <button aria-label type="button" id="add_close" class="popup__close"></button>
     <h2 class="popup__title">Новое место</h2>
     <form name="addLink" method="post" class="popup__form">
-      <input id="add_name_input" class="popup__input" name="add" placeholder="Название">
-      <input id="add_link_input" class="popup__input" name="link" placeholder="Ссылка на картинку">
-      <button type="submit" id="add_button" class="popup__button">
+      <input id="add_name_input" class="popup__input" name="add" placeholder="Название" required>
+      <input type="url" id="add_link_input" class="popup__input" name="link" placeholder="Ссылка на картинку" required>
+      <button aria-label type="submit" id="add_button" class="popup__button">
         Сохранить
       </button>
     </form>
+  </div>
+</div>
+<div id="screen_popup" class="popup">
+  <div class="popup__container">
+    <button aria-label type="button" id="screen_close" class="popup__close"></button>
+    <img class="popup__image">
+    <h2 class="popup__name"></h2>
   </div>
 </div>
 <script src="scripts/script.js"></script>

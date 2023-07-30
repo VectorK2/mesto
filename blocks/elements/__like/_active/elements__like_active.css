@@ -1,0 +1,5 @@
+.elements__like_active {
+  background: url("../../../../images/likeblack.jpg");
+  background-size: 21px, 19px;
+  background-repeat: no-repeat;
+}

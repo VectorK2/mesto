@@ -5,7 +5,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  margin: 25px 0px 15px 0;
+  margin: 38px 0px 15px 0;
   padding: 10px 130px 10px 130px;
   background-size: cover;
   border: 0px;
@@ -20,7 +20,7 @@
 @media screen and (max-width: 950px) {
   .popup__button {
     padding: 13px 80px 12px 80px;
-    margin: 35px 0 15px 25px;
+    margin: 38px 0 15px 25px;
     font-size: 14px;
     line-height: 17px;
   }
