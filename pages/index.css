@@ -33,6 +33,8 @@
 @import "../blocks/popup/__close/popup__close.css";
 @import "../blocks/popup/__container/popup__container.css";
 @import "../blocks/popup/__name/popup__name.css";
+@import "../blocks/popup/__image/popup__image.css";
+@import "../blocks/popup/_screen-popup/popup_screen-popup.css";
 
 @import "../blocks/__screen/__box/screen__box.css";
 @import "../blocks/__screen/__img/screen__img.css";
